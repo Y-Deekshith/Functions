@@ -1,0 +1,55 @@
+function gad2c  { cd /suppression/zds-cas4-01/GREEN_SUPPRESSIONS/GMAIL_SUPPRESS/ADHOC2/configFilePath/ ; vim $1 ; cd - ; }
+function gad1c  { cd /suppression/zds-cas4-01/GREEN_SUPPRESSIONS/GMAIL_SUPPRESS/ADHOC1/configFilePath/ ; vim $1 ; cd - ; }
+function gad4c  { cd /suppression/zds-cas4-01/GREEN_SUPPRESSIONS/GMAIL_SUPPRESS/ADHOC4/configFilePath/ ; vim $1 ; cd - ; }
+function hdrf1 { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,fname' | cat - $1 > temp && mv -f temp $1 ; }
+function hfp { > fff1 ; vim fff1 ; dot=`date +%Y%m%d` ; for i in `cat fff1` ; do ls | grep -i "$i" | grep US_GenuineOpeners_CPC_HigherIncomeJobsA_ | grep -i $dot  | grep -i _Fields  ; done }
+function ffp { > fff1 ; vim fff1 ; dot=`date +%Y%m%d` ; for i in `cat fff1` ; do ls | grep -i "$i" | grep US_GenuineOpeners_FreeCovidTestsV2_A_ | grep -i $dot  | grep -i _Fields  ; done }
+function or { >hh;vi hh;for i in `cat asd`;do echo `cat hh|grep -i $i`;done }
+gtd
+function chk { > kkj ; vim kkj ; for i in `cat kkj` ; do cut -d, -f3 $i| cut -d"@" -f2  | sort | uniq -c ; done; }
+function so { sort -t, -uk3,3 -o $1 $1 ; }
+function fn { grep "$1" /home/moonuser/Gmail_Shortcuts ; }
+function hzip {  function hdrz { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,FNAME,lname,zip' | cat - $1 > temp && mv -f temp $1 ; } ; hdrr==$RANDOM ; > $hdrr ; vim $hdrr ; for i in `cat $hdrr` ; do hdrz $i ; echo $i ; done }
+function hig {  function hdrfzz { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,fname,PL,HH,EC'  | cat - $1 > temp && mv -f temp $1 ; } ; >ff1 ; vim ff1 ; for i in `cat ff1` ; do sed -i "s/|/,/g" $i ; hdrfzz $i ; echo $i ; done }
+
+function hdrc { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,CUSTOMERID' | cat - $1 > temp && mv -f temp $1 ; }
+
+function hdrt { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,decile' | cat - $1 > temp && mv -f temp $1 ; }
+function tos { > ggg ; vim ggg ;tput setaf 2 ; for i in `cat ggg` ; do sshpass -p'3bQ!Z)Fi9r~e' scp $i UserGizmodo@216.250.248.172:/home/UserGizmodo/ ; echo $i ; done ; tput setaf 7; }
+function froms { > ggg ; vim ggg ;tput setaf 2 ; for i in `cat ggg` ; do sshpass -p'3bQ!Z)Fi9r~e' scp UserGizmodo@216.250.248.172:/home/UserGizmodo/$i . ; echo $i ; done ; tput setaf 7; }
+
+
+function hdrk { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,Code' | cat - $1 > temp && mv -f temp $1 ; }
+
+function hdrc { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,CUSTOMERID' | cat - $1 > temp && mv -f temp $1 ; }
+
+function hdramex {  function hdrfzz { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,CUSTOMERID,FNAME,LNAME,DATE1'  | cat - $1 > temp && mv -f temp $1 ; } ; >ff1 ; vim ff1 ; for i in `cat ff1` ; do sed -i "s/|/,/g" $i ; hdrfzz $i ; echo $i ; done }
+
+
+function hdrj {  function hdrz { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,ZIP,FNAME,LNAME' | cat - $1 > temp && mv -f temp $1 ; } ; hdrr==$RANDOM ; > $hdrr ; vim $hdrr ; for i in `cat $hdrr` ; do hdrz $i ; echo $i ; done }
+
+
+function hdrb { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,SHA' | cat - $1 > temp && mv -f temp $1 ; }
+
+
+function hdru { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,CREATIVECODE,CUSTOMERID' | cat - $1 > temp && mv -f temp $1 ; }
+function sghgy {    ns3=$(date +%4N); >$ns3;vi $ns3; while  read j ;  do   wc -l $j; done<$ns3;  d=$(sed ':a;N;$!ba;s/\n/ /g' $ns3); sshpass -p'Gmail@#4$h@Y' scp $d gmaily@154.27.73.94:/home/gmaily/mailingdata/`date +%d%m`/production ;  rm $ns3;  }
+
+
+function hdrd { echo 'LIST_ID,PROFILE_ID,EMAIL_ID,DECILE' | cat - $1 > temp && mv -f temp $1 ; }
+function tos { > ggg ; vim ggg ;tput setaf 2 ; for i in `cat ggg` ; do sshpass -p'3bQ!Z)Fi9r~e' scp $i UserGizmodo@216.250.248.172:/home/UserGizmodo/ ; echo $i ; done ; tput setaf 7; }
+function lftp { echo "get /home/rlptshare/GMAIL/`date +%Y%m%d`/$1/US_GeninueOpeners/*";sshpass -p 'fZbxQfy6mzeko)4g' sftp rlptshare@147.124.221.252; }
+function sghgy  { > ll1;vi ll1;for i in `cat ll1`;do  sh /home/moonuser/GREEN_SUPPRESSIONS/GMAIL_SUPPRESS/REPORT/sgtest1gy.sh $i;done }
+
+function sghgpy  { > ll1;vi ll1;for i in `cat ll1`;do  sh /home/moonuser/GREEN_SUPPRESSIONS/GMAIL_SUPPRESS/REPORT/sgtest2gy.sh $i;done }
+function isn1 {   ns3=$(date +%4N); >$ns3;vi $ns3; while  read j ;  do hdr $j; wc -l $j; done<$ns3; d=$(sed ':a;N;$!ba;s/\n/ /g' $ns3);   sshpass -p'fZbxQfy6mzeko)4g' scp $d zx_isft@154.27.73.94:/home/zx_isft/`date +%Y%d%m`/newdata/;  rm $ns3;  }
+function isp2 {   ns3=$(date +%4N); >$ns3;vi $ns3; while  read j ;  do  wc -l $j; done<$ns3; d=$(sed ':a;N;$!ba;s/\n/ /g' $ns3);   sshpass -p'fZbxQfy6mzeko)4g' scp $d zx_isft@154.27.73.94:/home/zx_isft/`date +%Y%d%m`/production/;  rm $ns3;  }
+function cph {   ns3=$(date +%4N); >$ns3;vi $ns3; while  read j ;  do  wc -l $j; done<$ns3; d=$(sed ':a;N;$!ba;s/\n/ /g' $ns3);   sshpass -p'fZbxQfy6mzeko)4g' scp $d zx_isft@154.27.73.94:/home/zx_isft/`date +%Y%d%m`/production/cpchigh;  rm $ns3;  }
+function cpu {   ns3=$(date +%4N); >$ns3;vi $ns3; while  read j ;  do  wc -l $j; done<$ns3; d=$(sed ':a;N;$!ba;s/\n/ /g' $ns3);   sshpass -p'fZbxQfy6mzeko)4g' scp $d zx_isft@154.27.73.94:/home/zx_isft/`date +%Y%d%m`/production/cpcunclim;  rm $ns3;  }
+function sp {    if [ -f spfile ] ;   then      echo "please wait a min or you may remove spfile ";  else   >spfile;  splityy=$RANDOM ; >tmp_used;  > $splityy ;vim $splityy; sum=0; while read i; do sum=`expr $sum + $i`;  done<$splityy; sort -uo $1 $1; count=$(wc -l $1|cut -d" " -f1); if [ $sum -le $count ] ;   then  hed=0 ;  tal=0; for i in `cat $splityy` ;  do tal=$i ;  hed=`expr $hed + $i`;  head '-'$hed $1 | tail '-'$tal > $1'_h'$hed'_t'$tal ;  fgrep -xvf tmp_used  $1'_h'$hed'_t'$tal >new_tmp; mv new_tmp  $1'_h'$hed'_t'$tal;  wc -l $1'_h'$hed'_t'$tal ;  cat $1'_h'$hed'_t'$tal  >>tmp_used;  fgrep -xvf tmp_used $1 >$1'_final';  done; wc -l $1'_final'; rm tmp_used;  rm $splityy;  else echo ""file count is less;   fi;   rm  spfile; fi;   }
+function ad { >dm;> $1'_final';  vim dm; while read i; do  cat $i >>$1'_final'; done<dm; sort -uo $1'_final' $1'_final'; wc -l $1'_final'; }
+ function cpf {   ns3=$(date +%4N); >$ns3;vi $ns3; while  read j ;  do  wc -l $j; done<$ns3; d=$(sed ':a;N;$!ba;s/\n/ /g' $ns3);   sshpass -p'fZbxQfy6mzeko)4g' scp $d zx_isft@154.27.73.94:/home/zx_isft/`date +%Y%d%m`/production/freecovid;  rm $ns3;  }
+ function hh {  >h_file;  vim h_file; while  read j ;    do     hdr $j;     wc -l $j;   done<h_file;       }
+gtd
+
+function isp1 {   ns3=$(date +%4N); >$ns3;vi $ns3; while  read j ;  do hdr $j; wc -l $j; done<$ns3; d=$(sed ':a;N;$!ba;s/\n/ /g' $ns3);   sshpass -p'fZbxQfy6mzeko)4g' scp $d zx_isft@154.27.73.94:/home/zx_isft/`date +%Y%d%m`/production/;  rm $ns3;  }
